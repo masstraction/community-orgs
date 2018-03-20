@@ -1,0 +1,25 @@
+# Note: For idiosyncrasies to your local clone, such as IDE settings and in
+#   which you're likely to have only one clone on one machine, please consider
+#   placing your list of excluded files in .git/info/exclude
+#
+# To determine which files you have in your clone directores that are not
+#   being tracked (that you may wish to exclude), and that are neither
+#   already listed in your .gitignore nor exclude file, run
+#     git ls-files --others --exclude-from=.git/info/exclude
+
+# OSX hidden files
+.DS_Store
+
+# # Byte-compiled, optimized, and object files for Python
+__pycache__/
+*.py[cod]
+
+# Django files:
+*.log
+local_settings.py
+db.sqlite3
+
+# Source: https://github.com/github/gitignore/blob/master/Python.gitignore
+
+# Emacs backup files
+*~
